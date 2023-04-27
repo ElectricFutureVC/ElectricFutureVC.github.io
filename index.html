@@ -2,7 +2,96 @@
 <link rel="shortcut icon" type="image/x-icon" href="4catalyzer_favicon.ico">
 <html>
   <head>
-    <title>4CatalyzerVC</title>
+    <title>4Catalyzer VC</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+      }
+      header {
+        background-color: #005baa;
+        color: #fff;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      nav li {
+        margin-left: 20px;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      main {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      h1, h2 {
+        font-size: 36px;
+        margin: 20px 0;
+      }
+      p, ul {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      section {
+        margin-bottom: 50px;
+      }
+      footer {
+        background-color: #005baa;
+        color: #fff;
+        padding: 10px 20px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+      footer p {
+        margin: 0;
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      input[type="submit"] {
+        background-color: #005baa;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      input[type="submit"]:hover {
+        background-color: #0072c6;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -25,38 +114,4 @@
         <h2>Our Services</h2>
         <ul>
           <li>Seed funding</li>
-          <li>Series A and B funding</li>
-          <li>Business development</li>
-          <li>Mentorship and coaching</li>
-        </ul>
-      </section>
-      <section id="portfolio">
-        <h2>Portfolio</h2>
-        <ul>
-          <li><a href="#">Startup 1</a></li>
-          <li><a href="#">Startup 2</a></li>
-          <li><a href="#">Startup 3</a></li>
-          <li><a href="#">Startup 4</a></li>
-        </ul>
-      </section>
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <form>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required><br>
-
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required><br>
-
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" required></textarea><br>
-
-          <input type="submit" value="Submit">
-        </form>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; 2023 Venture Capital Firm</p>
-    </footer>
-  </body>
-</html>
+          <li>Series A and B funding</li
